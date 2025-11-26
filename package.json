@@ -1,0 +1,19 @@
+{
+  "name": "currencycalculatorjs",
+  "version": "1.0.0",
+  "description": "JavaScript currency calculator with minimalist UI",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.4"
+  }
+}

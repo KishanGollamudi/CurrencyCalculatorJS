@@ -1,0 +1,51 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.converter-card {
+  width: 380px;
+  padding: 30px;
+  background: #f6f7f9;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+label {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #1971e3;
+  color: white;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
